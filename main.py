@@ -11,7 +11,7 @@ import random,  string
 cli  = Client (  "gpt",
                 api_id=28153993,
                 api_hash="976fd7cc4958ad84181a53b41919564b",
-                bot_token="6730481569:AAFSu_wX_qp97wgLBaElV2FKQC8X9EqOa8A"
+                bot_token="6730481569:AAEQmm5Yxvolwn2x4Vrqdh5ARWk8jx9EpqY"
                 )
 headers = {
     'authority': 'query me',
