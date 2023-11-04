@@ -9,9 +9,9 @@ from time import sleep
 from buttons import *
 import random,  string
 cli  = Client (  "gpt",
-                api_id=28153993,
-                api_hash="976fd7cc4958ad84181a53b41919564b",
-                bot_token="6730481569:AAEQmm5Yxvolwn2x4Vrqdh5ARWk8jx9EpqY"
+                api_id = API_ID,
+                api_hash = API_HASH ,
+                bot_token = BOT_TOKEN 
                 )
 headers = {
     'authority': 'query me',
@@ -42,7 +42,7 @@ async def settings_(_, m):
 
 @cli.on_message(filters.private & filters.command(['help']))
 async def help_message(_, m):
-    await m.reply(f"""**type /help for this menu
+    await m.reply(f"""**.   type /help for this menu
     type /mysetting to see your current setting 
     type /language to set language
     type /tone to set approach/tone 
