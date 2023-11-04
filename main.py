@@ -3,7 +3,7 @@ from callback import *
 from pyrogram import Client ,filters , enums
 from pyroaddon import listen
 from pyrogram.errors import *
-import requests,json
+import requests.json
 from pyrogram.types import *
 from time import sleep
 from buttons import *
