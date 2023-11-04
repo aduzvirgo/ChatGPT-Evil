@@ -8,11 +8,11 @@ from pyrogram.types import *
 from time import sleep
 from buttons import *
 import random,  string
-cli  = Client (  "gpt",
-                api_id=28153993
-                api_hash=976fd7cc4958ad84181a53b41919564b
-                bot_token=6730481569:AAFxQVC3hmrrhYLhWnCS-K_XfrWh4_ci1Oc 
-                )
+cli = Client("gpt",
+             api_id=28153993,
+             api_hash="976fd7cc4958ad84181a53b41919564b",
+             bot_token="6730481569:AAFxQVC3hmrrhYLhWnCS-K_XfrWh4_ci1Oc"
+            )
 headers = {
     'authority': 'query me',
     'Authorization':APIKEY,
